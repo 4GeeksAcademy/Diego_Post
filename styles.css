@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.post {
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: column;
+    /*Centramos el post en la pantalla tanto vertical como horizontalmente*/
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 500px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+} 
+
+.h_izq {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    flex-direction: row;
+}
+
+.colum_izq {
+    display: flex;
+    height: 100%;
+    witdh: 100%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.colum_der {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+
+
+.h_der {
+    display: flex;
+    height: auto;
+    width: auto;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.foto {
+    height: 100%;
+    width: 100%;
+}
+
+.imagen {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.iconos {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.i_izq {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.i_der {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.likes {
+    padding-left: 10px;
+}
+
+.descripcion {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: auto;
+}
